@@ -1,0 +1,73 @@
+<LinearLayout android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:paddingStart="40sp"
+    android:layout_margin="10sp"
+    android:paddingEnd="40sp"
+    android:paddingBottom="40sp"
+    android:orientation="vertical"
+    android:paddingTop="20sp"
+    android:background="@drawable/roundedbutton"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/txtTitle"
+        android:text="POSE"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imgthumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10sp"
+        android:background="@drawable/border_white"
+        android:src="@drawable/img_placeholder"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtPose"
+            android:text="TITLE : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txtTimer"
+            android:text="TIME TO COMPLETE  : "
+            android:textSize="15sp"
+            android:layout_marginTop="@dimen/padding_10"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:text="DATE : "
+            android:textSize="15sp"
+            android:layout_marginTop="@dimen/padding_10"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
